@@ -1,0 +1,19 @@
+.tittle2{
+    margin-top: 300px;
+}
+
+.tittle2 h1,p{
+    color: white;
+    text-align: center;
+}
+
+.tittle2 h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.tittle2 p{
+    font-size: 1.75rem;
+    font-weight: 185;
+}
