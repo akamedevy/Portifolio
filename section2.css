@@ -17,3 +17,15 @@
     font-size: 1.75rem;
     font-weight: 185;
 }
+
+.linguagens2 .quadrado2:nth-child(1):hover {
+    box-shadow: 0px 0px 100px 50px rgba(197, 61, 255, 0.13);
+}
+
+.linguagens .quadrado:nth-child(2):hover {
+    box-shadow: 0px 0px 100px 50px rgba(24, 119, 159, 0.23);
+}
+
+.linguagens .quadrado:nth-child(3):hover {
+    box-shadow: 0px 0px 100px 50px rgba(255, 145, 0, 0.13);
+}
