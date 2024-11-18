@@ -44,13 +44,21 @@
     }
 
     .sobre-mim{
-        margin-top: 100px;
+        margin-top: 150px;
         margin-bottom: 100px;
     }
 
     .navbar{
         display: flex;
         flex-direction: column;
+    }
+
+    .footer-content a {
+        margin-right: 20px;
+    }
+
+    header{
+        height: 57px;
     }
 
 }
