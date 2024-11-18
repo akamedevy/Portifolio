@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <script defer src="script.js"></script>
     <title>Portifólio</title>
 </head>
@@ -12,14 +13,14 @@
         <a href="#" class="logo">?João Almeida&lt;</a>
 
         <nav class="navbar">
-            <a href="#">Teste1</a>
-            <a href="#">Teste2</a>
-            <a href="#">Teste3</a>
-            <a href="#">Teste4</a>
+            <a href="#sobremim">Sobre mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#qualificacoes">Qualificações</a>
         </nav>
         <div class="indicador"></div>
     </header>
-    <section class="sobre-mim">
+    <section class="sobre-mim" id="sobremim">
         <div class="imagem">
             <img src="imgs/2248431fd9044a236cdc94d867913fb4.jpg" alt="" class="pfp">
         </div>
@@ -31,7 +32,7 @@
 
 
 
-    <section class="habilidade">
+    <section class="habilidade" id="habilidades">
         <div class="tittle">
             <h1>Minhas Habilidades<span class="cursor"></span></h1>
             <p>Front End</p>
@@ -84,7 +85,7 @@
         </div>
     </section>
     
-    <section class="projetos">
+    <section class="projetos" id="projetos">
         <div class="titulo">
             <h1>
                 Projetos
@@ -93,17 +94,73 @@
         <div class="container">
             <div class="proj proj1">
                 <h1>
-                    Landing Page <br> Hamburgueria
+                    Landing Page Hamburgueria
                 </h1>
-                <p>dromedario</p>
+                <p>Pagina criada para o estudo de desenvolvimento web.</p>
             </div>
             <div class="proj proj2">
-
+                <h1>Tweeb</h1>
+                <p>E-commerce em construção para o projeto integrador do curso.</p>
             </div>
             <div class="proj proj3">
-
+                <h1>Em construção</h1>
+                <p>vou colocar mais depoiskkkkk</p>
             </div>
         </div>
     </section>
+
+    <section class="qualificacoes" id="qualificacoes">
+        <div class="tittle">
+            <h1>Qualificações</h1>
+        </div>
+        <div class="certificados">
+            <div class="certi1 certi">
+                <div class="img">
+                    <img src="imgs/python-essentials-1.1.png" alt="">
+                </div>
+                <div class="desc">
+                    <p>
+                        Finalizado Curso Python Essentials 1 - Cisco
+                    </p>
+                </div>
+            </div>
+            <div class="certi2 certi">
+                <div class="img">
+                    <img src="imgs/javascript-essentials-1.png" alt="">
+                </div>
+                <div class="desc">
+                    <p>
+                        Finalizado Curso Javascript Essentials 1 - Cisco
+                    </p>
+                </div>
+            </div>
+            <div class="certi3 certi">
+                <div class="img">
+                    <img src="imgs/Senac.png" alt="">
+                </div>
+                <div class="desc">
+                    <p>
+                        Cursando Técnico Em Desenvolvimento De Sistemas - Senac
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logos">
+                <h1>Contato: </h1>
+                <div class="logofooter">
+                    <a href="https://github.com/akamedevy"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/joaoallmeida/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/akamefavel/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="outros">
+                <i class="fa-regular fa-copyright"> Joao Almeida - 2024</i>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

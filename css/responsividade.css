@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1000px){
+    .projetos .container{
+        flex-direction: column;
+    }
+    .habilidade, .linguagens{
+        height: auto;
+    }
+
+    .linguagens{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .sobre-mim{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sobre-mim .imagem, .sobre-mim .texto{
+        width: auto;
+        margin-left: 0;
+    }
+    .sobre-mim .texto{
+        margin-right: 0;
+    }
+
+    .footer-content{
+        flex-direction: column;
+    }
+
+    .footer-content .logos{
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+
+    .outros{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-mim .imagem img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .sobre-mim{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

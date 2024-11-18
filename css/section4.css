@@ -1,0 +1,57 @@
+.qualificacoes{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qualificacoes .tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qualificacoes .tittle h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.certificados img{
+    height: 250px;
+    width: 250px;
+}
+
+.certificados{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 20px;
+}
+
+.certi .desc p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.certi .desc{
+    width: 400px;
+}
+
+.certi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    transition: transform 0.5s ease;
+}
+
+.certi3 img{
+    height: 150px;
+    width: 250px;
+}
+
+.certi:hover{
+    transform: scale(1.1);
+}
