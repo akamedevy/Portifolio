@@ -1,0 +1,14 @@
+.qualificacoes {
+    height: 1000px;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+
+.titulo{
+    text-align: center;
+}
+
+.titulo h1{
+    font-size: 50px;
+}
