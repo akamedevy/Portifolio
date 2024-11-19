@@ -1,7 +1,5 @@
-.qualificacoes {
+.projetos {
     height: 1000px;
-    background-color: white;
-    transition: 0.5s ease-in-out;
 }
 
 
@@ -10,5 +8,57 @@
 }
 
 .titulo h1{
-    font-size: 50px;
+    font-size: 4rem;
+    color: transparent;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgb(193, 13, 70), rgba(185, 12, 12, 0.8)100%);
+    background-clip: text; /* Para outros navegadores */
+    transition: 0.5s;
+    text-shadow:#a70a3c 1px 0 40px;
+}
+
+.container{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.proj{
+    height: 550px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.proj1 {
+    transition: background 0.5s ease-in-out;
+    background: linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.900)), url(imgs/Captura\ de\ tela_19-11-2024_85835_.jpeg);
+    background-position: center;
+    background-size: 105%;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+}
+
+.proj h1, .proj1 p {
+    color: white;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.proj1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(imgs/Captura\ de\ tela_19-11-2024_85835_.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+}
+
+.proj1:hover h1,
+.proj1:hover p {
+    opacity: 0;
+    cursor: default;
 }

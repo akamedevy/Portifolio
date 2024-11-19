@@ -18,17 +18,3 @@
 // } else {
 //     console.log("animation-timeline é suportado.");
 // }
-
-window.addEventListener("scroll", function() {
-    const ScrollPos = window.scrollY; // Posição da rolagem
-    console.log(ScrollPos);
-
-    const minhadiv = document.querySelector(".qualificacoes");
-
-    // Verifica se a rolagem passou de 2000px e muda o fundo suavemente
-    if (ScrollPos >= 2200) {
-        minhadiv.style.backgroundColor = 'white';
-    } else {
-        minhadiv.style.backgroundColor = 'black';
-    }
-});
